@@ -189,8 +189,8 @@ async function main() {
     })
 
     // Add an event listener to seekbar
-    document.querySelector(".seekbar").addEventListener("click", e => {
-        let percent = (e.offsetX / e.target.getBoundingClientRect().width) * 100;
+    document.querySelector(".seekbar").addEventListener("input", e => {
+        let percent = e.target.value;
         currentSong.currentTime = (currentSong.duration * percent) / 100;
     })
 
