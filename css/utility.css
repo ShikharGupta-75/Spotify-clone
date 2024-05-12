@@ -1,0 +1,50 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-grey {
+    background-color: #1f1e1e;
+}
+
+.bg-grey2 {
+    background-color: #141414;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(46, 45, 45) rgb(5, 5, 5);
+}
